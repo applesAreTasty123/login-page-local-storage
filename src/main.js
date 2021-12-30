@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
             localStorage.setItem("IsLoged", isLogedIn);
             alert("You are logged in!");
 
-            window.location.href = "http://localhost:5500/Login%20page/dashboard.html";
+            window.location.href = "/Login%20page/dashboard.html";
         } else {
             alert("Failed to log in.");
         }
